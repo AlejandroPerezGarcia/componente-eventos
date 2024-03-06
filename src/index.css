@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgba(48, 225, 4, 0.693);
+}
+
+.principal {
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  flex-wrap: nowrap;
+}
+
+.registro {
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  height: 350px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  background: white;
+}
