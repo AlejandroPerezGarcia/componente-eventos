@@ -18,13 +18,30 @@ body {
 
 .registro {
   text-align: center;
-  border: 2px solid black;
+  border: 2px solid white;
   border-radius: 10px;
-  height: 350px;
+  height: 500px;
   width: 400px;
   display: flex;
+  justify-content: space-around;
+  background: white;
   flex-direction: column;
-  align-items: stretch;
-  justify-content: center;
+}
+
+.registro h1 {
+  font-size: 35px;
+}
+
+.redes {
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.btn-1 {
+  width: 50px;
+  height: 50px;
+  border: 2px solid black;
+  border-radius: 50px;
   background: white;
 }

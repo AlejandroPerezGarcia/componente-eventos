@@ -8,24 +8,24 @@ const Formulario = () => {
   return (
     <>
       <Form>
-        <Row className="mb-3">
-          <Form.Group as={Col} controlId="formGridEmail">
+        <Row className="mb-3 ">
+          <Form.Group as={Col} controlId="formGridNombre" >
             <Form.Control type="text" placeholder="Nombre" />
           </Form.Group>
-
+          <br />
           <Form.Group as={Col} controlId="formGridEmail">
             <Form.Control type="email" placeholder="tuemail@ejemplo.com" />
           </Form.Group>
-
+          <br />
           <Form.Group as={Col} controlId="formGridPassword">
             <Form.Control type="password" placeholder="contraseña" />
           </Form.Group>
-
-          <Form.Group as={Col} controlId="formGridPassword">
+          <br />
+          <Form.Group as={Col} controlId="formGridPassword2">
             <Form.Control type="password" placeholder="Confirmar tu Contraseña" />
           </Form.Group>
         </Row>
-
+        <br />
         <Button variant="primary" type="submit">
           Registrarse
         </Button>
