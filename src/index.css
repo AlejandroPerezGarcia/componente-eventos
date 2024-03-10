@@ -45,3 +45,17 @@ body {
   border-radius: 50px;
   background: white;
 }
+
+.btnRegistro {
+  margin: 30px;
+  width: 180px;
+  height: 30px;
+  background: green;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+.form-group {
+  padding: 10px;
+}
