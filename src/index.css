@@ -5,7 +5,7 @@
 }
 
 body {
-  background: rgba(48, 225, 4, 0.693);
+  background: #29e104ab;
 }
 
 .principal {
@@ -20,7 +20,7 @@ body {
   text-align: center;
   border: 2px solid white;
   border-radius: 10px;
-  height: 500px;
+  height: 600px;
   width: 400px;
   display: flex;
   justify-content: space-around;
@@ -33,7 +33,7 @@ body {
 }
 
 .redes {
-  padding: 10px;
+  padding: 5px;
   display: flex;
   justify-content: space-evenly;
 }
@@ -44,12 +44,13 @@ body {
   border: 2px solid black;
   border-radius: 50px;
   background: white;
+  padding: 5px;
 }
 
 .btnRegistro {
   margin: 30px;
-  width: 180px;
-  height: 30px;
+  width: 280px;
+  height: 40px;
   background: green;
   color: white;
   border: none;
@@ -58,4 +59,8 @@ body {
 
 .form-group {
   padding: 10px;
+}
+
+.alert {
+  padding: 20px;
 }
